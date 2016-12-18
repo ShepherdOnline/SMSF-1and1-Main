@@ -1,0 +1,887 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-06-21 18:38+0200\n"
+"PO-Revision-Date: 2016-06-21 18:38+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_n;esc_html__;esc_html_e;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/customiser/customiser.php:31
+msgid "Features Section"
+msgstr ""
+
+#: classes/customiser/customiser.php:34
+msgid ""
+"<i>Fill in this section by adding \"Theme - Feature\" widgets to \"Customize "
+"> Widgets > Features section\"</i><hr/>"
+msgstr ""
+
+#: classes/customiser/customiser.php:51 classes/customiser/customiser.php:146
+#: classes/customiser/customiser.php:276 classes/customiser/customiser.php:381
+#: classes/customiser/customiser.php:488 classes/customiser/customiser.php:593
+#: classes/customiser/customiser.php:633 classes/customiser/customiser.php:805
+msgid "Hide this section"
+msgstr ""
+
+#: classes/customiser/customiser.php:62 classes/sections/features.php:1
+msgid "features"
+msgstr ""
+
+#: classes/customiser/customiser.php:71 classes/customiser/customiser.php:166
+#: classes/customiser/customiser.php:296 classes/customiser/customiser.php:401
+#: classes/customiser/customiser.php:508 classes/customiser/customiser.php:650
+#: classes/customiser/customiser.php:825 classes/widget/Items/Features.php:128
+#: classes/widget/Items/Plan.php:150
+msgid "Title"
+msgstr ""
+
+#: classes/customiser/customiser.php:81 classes/sections/features.php:1
+msgid "What makes emmet theme unique"
+msgstr ""
+
+#: classes/customiser/customiser.php:91 classes/customiser/customiser.php:185
+#: classes/customiser/customiser.php:315 classes/customiser/customiser.php:420
+#: classes/customiser/customiser.php:527 classes/customiser/customiser.php:667
+#: classes/customiser/customiser.php:844
+msgid "Description"
+msgstr ""
+
+#: classes/customiser/customiser.php:101 classes/customiser/customiser.php:336
+#: classes/customiser/customiser.php:441 classes/customiser/customiser.php:549
+msgid "Widgets animation"
+msgstr ""
+
+#: classes/customiser/customiser.php:116 classes/customiser/customiser.php:246
+#: classes/customiser/customiser.php:351 classes/customiser/customiser.php:456
+#: classes/customiser/customiser.php:564 classes/customiser/customiser.php:609
+#: classes/customiser/customiser.php:776 classes/customiser/customiser.php:943
+msgid "Section position"
+msgstr ""
+
+#: classes/customiser/customiser.php:126
+msgid "Portfolio Section"
+msgstr ""
+
+#: classes/customiser/customiser.php:129
+msgid ""
+"<i>Go to \"Dashboard > Portfolio\" and add posts to fill this section</i><hr/"
+">"
+msgstr ""
+
+#: classes/customiser/customiser.php:157
+msgid "Our portfolio"
+msgstr ""
+
+#: classes/customiser/customiser.php:176 classes/sections/portfolio.php:283
+msgid ""
+"In the portfolio section you can display your works consisting of "
+"screenshots and additional information"
+msgstr ""
+
+#: classes/customiser/customiser.php:194 classes/sections/portfolio.php:299
+msgid "check all works"
+msgstr ""
+
+#: classes/customiser/customiser.php:203 classes/customiser/customiser.php:701
+msgid "Button label"
+msgstr ""
+
+#: classes/customiser/customiser.php:221
+msgid "Button url"
+msgstr ""
+
+#: classes/customiser/customiser.php:231
+msgid "Portfolio animation"
+msgstr ""
+
+#: classes/customiser/customiser.php:256
+msgid "Packages Section"
+msgstr ""
+
+#: classes/customiser/customiser.php:259
+msgid ""
+"<i>Fill in this section by adding \"Theme - Plan\" widgets to \"Customize > "
+"Widgets > Packages section\"</i><hr/>"
+msgstr ""
+
+#: classes/customiser/customiser.php:287 classes/sections/plan.php:119
+msgid "packages and pricing table"
+msgstr ""
+
+#: classes/customiser/customiser.php:306 classes/sections/plan.php:143
+msgid "Pricing section for your product"
+msgstr ""
+
+#: classes/customiser/customiser.php:325 classes/customiser/customiser.php:430
+#: classes/customiser/customiser.php:538
+msgid "Description animation"
+msgstr ""
+
+#: classes/customiser/customiser.php:361
+msgid "Team Section"
+msgstr ""
+
+#: classes/customiser/customiser.php:364
+msgid ""
+"<i>Fill in this section by adding \"Theme - Team\" widgets to \"Customize > "
+"Widgets > Team section\"</i><hr/>"
+msgstr ""
+
+#: classes/customiser/customiser.php:392 classes/sections/team.php:1
+msgid "Our team"
+msgstr ""
+
+#: classes/customiser/customiser.php:411 classes/sections/team.php:1
+msgid "Perfect to display the members of your staff, team or working force"
+msgstr ""
+
+#: classes/customiser/customiser.php:468
+msgid "Testimonials Section"
+msgstr ""
+
+#: classes/customiser/customiser.php:471
+msgid ""
+"<i>Fill in this section by adding \"Theme - Testimonial\" widgets to "
+"\"Customize > Widgets > Testimonials section\"</i><hr/>"
+msgstr ""
+
+#: classes/customiser/customiser.php:499 classes/sections/testimonials.php:1
+msgid "testimonials"
+msgstr ""
+
+#: classes/customiser/customiser.php:518 classes/sections/testimonials.php:1
+msgid "What our happy customers say"
+msgstr ""
+
+#: classes/customiser/customiser.php:574
+msgid "Google Map Section"
+msgstr ""
+
+#: classes/customiser/customiser.php:577
+msgid ""
+"<i>Fill in this section by adding \"Theme - GoogleMap\" widget to "
+"\"Customize > Widgets > Google Map section\"</i><hr/>"
+msgstr ""
+
+#: classes/customiser/customiser.php:618
+msgid "Contact Us Section"
+msgstr ""
+
+#: classes/customiser/customiser.php:643 classes/sections/contact.php:133
+msgid "Message form"
+msgstr ""
+
+#: classes/customiser/customiser.php:660 classes/sections/contact.php:144
+msgid "Contact us using the form below"
+msgstr ""
+
+#: classes/customiser/customiser.php:683
+msgid "Email address"
+msgstr ""
+
+#: classes/customiser/customiser.php:694 classes/sections/contact.php:198
+msgid "Send Message"
+msgstr ""
+
+#: classes/customiser/customiser.php:718
+msgid "Hide reCaptcha?"
+msgstr ""
+
+#: classes/customiser/customiser.php:734
+msgid "Site key"
+msgstr ""
+
+#: classes/customiser/customiser.php:735
+msgid "Create an account here"
+msgstr ""
+
+#: classes/customiser/customiser.php:750
+msgid "Secret key"
+msgstr ""
+
+#: classes/customiser/customiser.php:761 classes/customiser/customiser.php:928
+msgid "Content animation"
+msgstr ""
+
+#: classes/customiser/customiser.php:786
+msgid "Call To Action Section"
+msgstr ""
+
+#: classes/customiser/customiser.php:816 classes/sections/install.php:1
+msgid "Install Emmet theme now!"
+msgstr ""
+
+#: classes/customiser/customiser.php:835
+msgid ""
+"The installation process is a real ease, it involves a couple of fast and "
+"clear steps to be fully completed. <br>Once you have uploaded the theme to "
+"your website and activated it, you will be presented with a detailed guided "
+"tour. "
+msgstr ""
+
+#: classes/customiser/customiser.php:854
+msgid "install now"
+msgstr ""
+
+#: classes/customiser/customiser.php:863
+msgid "First button label"
+msgstr ""
+
+#: classes/customiser/customiser.php:881
+msgid "First button url"
+msgstr ""
+
+#: classes/customiser/customiser.php:891 classes/sections/features.php:1
+#: classes/sections/install.php:1 classes/widget/Items/Features.php:150
+msgid "Read more"
+msgstr ""
+
+#: classes/customiser/customiser.php:900
+msgid "Second button label"
+msgstr ""
+
+#: classes/customiser/customiser.php:918
+msgid "Second button url"
+msgstr ""
+
+#: classes/footer/footer.php:37 classes/widget/Items/About.php:13
+msgid "About us"
+msgstr ""
+
+#: classes/footer/footer.php:38
+msgid ""
+"The company with over 5 years experience of delivering best consulting "
+"services for personal and business needs."
+msgstr ""
+
+#: classes/footer/footer.php:50
+msgid "Recent Posts"
+msgstr ""
+
+#: classes/footer/footer.php:62
+msgid "Authors"
+msgstr ""
+
+#: classes/posttype/portfolio.php:6
+msgid "Portfolio"
+msgstr ""
+
+#: classes/posttype/portfolio.php:7
+msgid "Project"
+msgstr ""
+
+#: classes/sections/contact.php:57
+msgid "* Please enter your name."
+msgstr ""
+
+#: classes/sections/contact.php:66
+msgid "* Please enter your email address."
+msgstr ""
+
+#: classes/sections/contact.php:69
+msgid "* You entered an invalid email address."
+msgstr ""
+
+#: classes/sections/contact.php:78
+msgid "* Please enter a subject."
+msgstr ""
+
+#: classes/sections/contact.php:87
+msgid "* Please enter a message."
+msgstr ""
+
+#: classes/sections/contact.php:105
+msgid "From "
+msgstr ""
+
+#: classes/sections/contact.php:107
+msgid "Name: "
+msgstr ""
+
+#: classes/sections/contact.php:107
+msgid "Email: "
+msgstr ""
+
+#: classes/sections/contact.php:107
+msgid "Subject: "
+msgstr ""
+
+#: classes/sections/contact.php:107
+msgid "Message: "
+msgstr ""
+
+#: classes/sections/contact.php:108
+msgid "From: "
+msgstr ""
+
+#: classes/sections/contact.php:108
+msgid "Reply-To: "
+msgstr ""
+
+#: classes/sections/contact.php:157
+msgid "Thanks, your email was sent successfully!"
+msgstr ""
+
+#: classes/sections/contact.php:159
+msgid "Sorry, an error occured."
+msgstr ""
+
+#: classes/sections/contact.php:180
+msgid "Your Name"
+msgstr ""
+
+#: classes/sections/contact.php:183
+msgid "Your Email"
+msgstr ""
+
+#: classes/sections/contact.php:186
+msgid "Subject"
+msgstr ""
+
+#: classes/sections/contact.php:189
+msgid "Your Message"
+msgstr ""
+
+#: classes/sections/features.php:1
+msgid ""
+"The design is clean thanks to a pleasant color scheme, readable typography "
+"and smartly organized content elements."
+msgstr ""
+
+#: classes/sections/features.php:1
+msgid "Simplicity"
+msgstr ""
+
+#: classes/sections/features.php:1
+msgid ""
+"The simplicity of navigation through the theme will definitely increase the "
+"User experience across various devices."
+msgstr ""
+
+#: classes/sections/features.php:1
+msgid "user friendly"
+msgstr ""
+
+#: classes/sections/features.php:1
+msgid ""
+"Emmet is a well-coded lightweight theme, which is loading fast and "
+"positively affect the search rankings of the site."
+msgstr ""
+
+#: classes/sections/features.php:1
+msgid "extremely fast"
+msgstr ""
+
+#: classes/sections/features.php:1
+msgid ""
+"A full arsenal of handy admin tools will make a customization process a "
+"breeze even for non-tech users."
+msgstr ""
+
+#: classes/sections/features.php:1
+msgid "flexible configuration"
+msgstr ""
+
+#: classes/sections/install.php:1
+msgid "Features"
+msgstr ""
+
+#: classes/sections/install.php:1
+msgid ""
+"The installation process is a real ease, it involves a couple of fast and "
+"clear steps to be fully completed. <br>Once you have uploaded the theme to "
+"your website and activated it, you will be presented with a detailed guided "
+"tour."
+msgstr ""
+
+#: classes/sections/plan.php:21 classes/sections/plan.php:33
+#: classes/sections/plan.php:45 classes/sections/plan.php:58
+msgid ""
+"100GB Storage</p> <p>All Themes</p> <p>Access to Tutorials</p> <p>Auto "
+"Backup</p> <p>Extended Security</p> <p>24/7 Techsupport"
+msgstr ""
+
+#: classes/sections/plan.php:22
+msgid "basic"
+msgstr ""
+
+#: classes/sections/plan.php:34
+msgid "standard"
+msgstr ""
+
+#: classes/sections/plan.php:46 classes/widget/Items/Plan.php:51
+#: classes/widget/Items/Plan.php:155
+msgid "Premium"
+msgstr ""
+
+#: classes/sections/plan.php:47
+msgid "Best Choice"
+msgstr ""
+
+#: classes/sections/plan.php:59
+msgid "ultimate"
+msgstr ""
+
+#: classes/sections/portfolio.php:24 classes/sections/portfolio.php:28
+#: classes/sections/portfolio.php:44 classes/sections/portfolio.php:48
+#: classes/sections/portfolio.php:64 classes/sections/portfolio.php:68
+#: classes/sections/portfolio.php:84 classes/sections/portfolio.php:88
+#: classes/sections/portfolio.php:104 classes/sections/portfolio.php:108
+#: classes/sections/portfolio.php:124 classes/sections/portfolio.php:128
+#: classes/sections/portfolio.php:144 classes/sections/portfolio.php:148
+#: classes/sections/portfolio.php:164 classes/sections/portfolio.php:168
+msgid "Fitsy logo"
+msgstr ""
+
+#: classes/sections/portfolio.php:30
+msgid "Logotypes"
+msgstr ""
+
+#: classes/sections/portfolio.php:50 classes/sections/portfolio.php:150
+msgid "Web-design"
+msgstr ""
+
+#: classes/sections/portfolio.php:70
+msgid "Print"
+msgstr ""
+
+#: classes/sections/portfolio.php:90 classes/sections/portfolio.php:110
+msgid "Aplications"
+msgstr ""
+
+#: classes/sections/portfolio.php:130
+msgid "llustrations"
+msgstr ""
+
+#: classes/sections/portfolio.php:170
+msgid "Your category"
+msgstr ""
+
+#: classes/sections/portfolio.php:262
+msgid "our portfolio"
+msgstr ""
+
+#: classes/sections/team.php:1
+msgid "ceo"
+msgstr ""
+
+#: classes/sections/team.php:1
+msgid "Michael Brown"
+msgstr ""
+
+#: classes/sections/team.php:1
+msgid "lead designer"
+msgstr ""
+
+#: classes/sections/team.php:1
+msgid "Sammy lee"
+msgstr ""
+
+#: classes/sections/team.php:1
+msgid "manager"
+msgstr ""
+
+#: classes/sections/team.php:1
+msgid "James Rolph"
+msgstr ""
+
+#: classes/sections/team.php:1
+msgid "lead programer"
+msgstr ""
+
+#: classes/sections/team.php:1
+msgid "Laura Izaura"
+msgstr ""
+
+#: classes/sections/team.php:1
+msgid "SEO-specialist"
+msgstr ""
+
+#: classes/sections/team.php:1
+msgid "Ben Robinson"
+msgstr ""
+
+#: classes/sections/team.php:1
+msgid "office-manager"
+msgstr ""
+
+#: classes/sections/team.php:1
+msgid "Anna Wilson"
+msgstr ""
+
+#: classes/sections/testimonials.php:1
+msgid "Imperial Corporation"
+msgstr ""
+
+#: classes/sections/testimonials.php:1
+msgid "Maria Burch"
+msgstr ""
+
+#: classes/sections/testimonials.php:1
+msgid ""
+"Awesome theme! The corporation I work for asked me to manage the company's "
+"blog built with Emmet and I just want to say thanks for such a good work! "
+"Iit simplified my blogging in many ways."
+msgstr ""
+
+#: classes/sections/testimonials.php:1
+msgid "Alabama solutions"
+msgstr ""
+
+#: classes/sections/testimonials.php:1
+msgid "Bryan Mitchell"
+msgstr ""
+
+#: classes/sections/testimonials.php:1
+msgid ""
+"I forgot about unneeded back and forth backend moves and simply enjoy my "
+"life. I now spend more time making the music I love. Emmet has a cool visual "
+"editor, so my editing work is simply a play."
+msgstr ""
+
+#: classes/sections/testimonials.php:1
+msgid "INk studios"
+msgstr ""
+
+#: classes/sections/testimonials.php:1
+msgid ""
+"I run a photographer blog and the Emmet theme simply became my saver! It's "
+"super fast and easy to customize. I've got a lot of compliments from my "
+"readers, which is my biggest satisfaction!"
+msgstr ""
+
+#: classes/widget/Items/About.php:12
+msgid "About Us"
+msgstr ""
+
+#: classes/widget/Items/About.php:91 classes/widget/Items/Authors.php:98
+#: classes/widget/Items/FeatureBlock.php:155
+#: classes/widget/Items/RecentPosts.php:145
+msgid "Title:"
+msgstr ""
+
+#: classes/widget/Items/About.php:96
+msgid "Show logo"
+msgstr ""
+
+#: classes/widget/Items/Authors.php:69
+msgid "Posts"
+msgstr ""
+
+#: classes/widget/Items/Authors.php:71
+msgid "Post"
+msgstr ""
+
+#: classes/widget/Items/Authors.php:101
+msgid "Role:"
+msgstr ""
+
+#: classes/widget/Items/Authors.php:103
+msgid "All User Roles"
+msgstr ""
+
+#: classes/widget/Items/Authors.php:107
+msgid "Number of authors to show:"
+msgstr ""
+
+#: classes/widget/Items/Break.php:12
+msgid "Break"
+msgstr ""
+
+#: classes/widget/Items/Break.php:13 classes/widget/Items/Break.php:48
+msgid "Use this widget to make next widget from new line."
+msgstr ""
+
+#: classes/widget/Items/Break.php:50
+msgid "Apply on wide-screen"
+msgstr ""
+
+#: classes/widget/Items/Break.php:52
+msgid "Apply on desktop"
+msgstr ""
+
+#: classes/widget/Items/Break.php:54
+msgid "Apply on tablet"
+msgstr ""
+
+#: classes/widget/Items/Break.php:56
+msgid "Apply on mobile"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:12
+#: classes/widget/Items/FeatureBlock.php:13
+msgid "Feature Block"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:162
+msgid "Text:"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:172
+msgid "Button text:"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:181
+msgid "Button link:"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:188
+msgid "Background:"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:196
+msgid "Image:"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:206
+#: classes/widget/Items/Features.php:124 classes/widget/Items/Team.php:162
+#: classes/widget/Items/Testimonial.php:156
+msgid "Upload Image"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:211
+msgid "Image position:"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:217
+msgid "Right"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:222
+msgid "Left"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:228
+msgid "Image animation:"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:233
+msgid "Content animation:"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:246
+msgid "None"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:249
+msgid "Fade In"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:252
+msgid "Fade In Right"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:255
+msgid "Fade In Left"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:258
+msgid "Fade In Up"
+msgstr ""
+
+#: classes/widget/Items/FeatureBlock.php:261
+msgid "Fade In Down"
+msgstr ""
+
+#: classes/widget/Items/Features.php:12 classes/widget/Items/Features.php:13
+msgid "Feature"
+msgstr ""
+
+#: classes/widget/Items/Features.php:115
+msgid "Image"
+msgstr ""
+
+#: classes/widget/Items/Features.php:137 classes/widget/Items/Plan.php:205
+msgid "Text"
+msgstr ""
+
+#: classes/widget/Items/Features.php:145
+msgid "Button text"
+msgstr ""
+
+#: classes/widget/Items/Features.php:155
+msgid "Button link"
+msgstr ""
+
+#: classes/widget/Items/Features.php:165 classes/widget/Items/Plan.php:275
+#: classes/widget/Items/Team.php:166 classes/widget/Items/Testimonial.php:160
+msgid "Widget Size (x of 12):"
+msgstr ""
+
+#: classes/widget/Items/Features.php:167 classes/widget/Items/Plan.php:277
+#: classes/widget/Items/Team.php:169 classes/widget/Items/Testimonial.php:162
+msgid "Phone"
+msgstr ""
+
+#: classes/widget/Items/Features.php:201 classes/widget/Items/Plan.php:311
+#: classes/widget/Items/Team.php:211 classes/widget/Items/Testimonial.php:196
+msgid "Tablet"
+msgstr ""
+
+#: classes/widget/Items/Features.php:237 classes/widget/Items/Plan.php:347
+#: classes/widget/Items/Team.php:255 classes/widget/Items/Testimonial.php:232
+msgid "Desktop"
+msgstr ""
+
+#: classes/widget/Items/Features.php:272 classes/widget/Items/Plan.php:382
+#: classes/widget/Items/Team.php:298 classes/widget/Items/Testimonial.php:267
+msgid "Large Desktop"
+msgstr ""
+
+#: classes/widget/Items/GoogleMap.php:12 classes/widget/Items/GoogleMap.php:13
+msgid "GoogleMap"
+msgstr ""
+
+#: classes/widget/Items/GoogleMap.php:64
+msgid "API key"
+msgstr ""
+
+#: classes/widget/Items/GoogleMap.php:70
+msgid "You latidute"
+msgstr ""
+
+#: classes/widget/Items/GoogleMap.php:79
+msgid "You longitude"
+msgstr ""
+
+#: classes/widget/Items/GoogleMap.php:88
+msgid "Zoom level"
+msgstr ""
+
+#: classes/widget/Items/GoogleMap.php:93
+msgid "Map width (default 100%)"
+msgstr ""
+
+#: classes/widget/Items/GoogleMap.php:102
+msgid "Map height (default 625px)"
+msgstr ""
+
+#: classes/widget/Items/GoogleMap.php:111
+msgid "Tooltip text"
+msgstr ""
+
+#: classes/widget/Items/Plan.php:12 classes/widget/Items/Plan.php:13
+msgid "Plan"
+msgstr ""
+
+#: classes/widget/Items/Plan.php:52 classes/widget/Items/Plan.php:166
+msgid "Best Value"
+msgstr ""
+
+#: classes/widget/Items/Plan.php:77
+msgid "/mo"
+msgstr ""
+
+#: classes/widget/Items/Plan.php:89 classes/widget/Items/Plan.php:210
+msgid ""
+"100GB Storage\n"
+"All Themes\n"
+"Access to Tutorials\n"
+"Auto Backup\n"
+"Extended Security\n"
+"24/7 Techsupport"
+msgstr ""
+
+#: classes/widget/Items/Plan.php:99 classes/widget/Items/Plan.php:109
+#: classes/widget/Items/Plan.php:225
+msgid "sign up"
+msgstr ""
+
+#: classes/widget/Items/Plan.php:161
+msgid "Sub title"
+msgstr ""
+
+#: classes/widget/Items/Plan.php:172
+msgid "Pricing"
+msgstr ""
+
+#: classes/widget/Items/Plan.php:183
+msgid "Currency"
+msgstr ""
+
+#: classes/widget/Items/Plan.php:194
+msgid "Period"
+msgstr ""
+
+#: classes/widget/Items/Plan.php:220
+msgid "Buttom text"
+msgstr ""
+
+#: classes/widget/Items/Plan.php:230
+msgid "Buttom link"
+msgstr ""
+
+#: classes/widget/Items/Plan.php:259
+msgid "Color"
+msgstr ""
+
+#: classes/widget/Items/Plan.php:267
+msgid "Hover color"
+msgstr ""
+
+#: classes/widget/Items/RecentPosts.php:14
+msgid "Recent posts"
+msgstr ""
+
+#: classes/widget/Items/RecentPosts.php:15
+msgid "Show recent posts"
+msgstr ""
+
+#: classes/widget/Items/RecentPosts.php:148
+msgid "Number of posts to show:"
+msgstr ""
+
+#: classes/widget/Items/RecentPosts.php:152
+msgid "Display post thumbnail?"
+msgstr ""
+
+#: classes/widget/Items/Team.php:12 classes/widget/Items/Team.php:13
+msgid "Team"
+msgstr ""
+
+#: classes/widget/Items/Team.php:124
+msgid "Name:"
+msgstr ""
+
+#: classes/widget/Items/Team.php:134
+msgid "Link:"
+msgstr ""
+
+#: classes/widget/Items/Team.php:141
+msgid "Position:"
+msgstr ""
+
+#: classes/widget/Items/Team.php:151
+msgid "Photo:"
+msgstr ""
+
+#: classes/widget/Items/Testimonial.php:12
+#: classes/widget/Items/Testimonial.php:13
+msgid "Testimonial"
+msgstr ""
+
+#: classes/widget/Items/Testimonial.php:121
+msgid "Blockquote"
+msgstr ""
+
+#: classes/widget/Items/Testimonial.php:129
+msgid "Author's name"
+msgstr ""
+
+#: classes/widget/Items/Testimonial.php:138
+msgid "Author's position"
+msgstr ""
+
+#: classes/widget/Items/Testimonial.php:147
+msgid "Author's photo"
+msgstr ""

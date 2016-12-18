@@ -1,0 +1,3 @@
+[submodule "vendor/mailchimp-api-php"]
+	path = vendor/mailchimp-api-php
+	url = https://bitbucket.org/mailchimp/mailchimp-api-php.git

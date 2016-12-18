@@ -1,0 +1,177 @@
+/**
+ * CSS rules for styling our cleaner dialog.
+ *
+ * @package    Nelio_Content
+ * @subpackage Nelio_Content/admin/css/src
+ * @author     David Aguilera <david.aguilera@neliosoftware.com>
+ * @since      1.0.0
+ */
+
+/**
+ * This file defines the styls for some generic components, such as
+ * dialogs and buttons.
+ *
+ * @package    Nelio_Content
+ * @subpackage Nelio_Content/admin/css/src/admin
+ * @author     David Aguilera <david.aguilera@neliosoftware.com>
+ * @since      1.0.0
+ */
+
+/* ----------------- */
+/* Loading Container */
+/* ----------------- */
+
+.nc-loading-container {
+	text-align: center;
+	padding: 2em 2em 3em;
+}
+
+.nc-loading-container .spinner {
+	float: none;
+}
+
+.nc-loading-container .spinner.is-active {
+	display: inline-block;
+}
+
+.nc-loading-container p {
+	color: #a6a6a6;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* --------------- */
+/* Loading Spinner */
+/* --------------- */
+
+.dashicons-update.nc-animate-spinner {
+	-webkit-animation: nc-spin 2s infinite linear;
+	        animation: nc-spin 2s infinite linear;
+	margin-top: 3px;
+}
+
+@-webkit-keyframes nc-spin {
+	from { -webkit-transform:rotate( 0deg ); transform:rotate( 0deg ); }
+	to { -webkit-transform:rotate( 360deg ); transform:rotate( 360deg ); }
+}
+
+@keyframes nc-spin {
+	from { -webkit-transform:rotate( 0deg ); transform:rotate( 0deg ); }
+	to { -webkit-transform:rotate( 360deg ); transform:rotate( 360deg ); }
+}
+
+
+/* ------------------- */
+/* Meta Box AJAX Error */
+/* ------------------- */
+
+.nc-meta-box-error {
+	margin: 1em;
+}
+
+.nc-meta-box-error .nc-dashicons {
+	color: #dd3d36;
+}
+
+
+/* ----- */
+/* Boxes */
+/* ----- */
+
+.nc-box {
+	background: white;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, .1 );
+}
+
+
+/* ------- */
+/* Dialogs */
+/* ------- */
+
+.nc-ncselect2-above-jquery-dialog {
+	z-index: 999999;
+}
+
+.ui-dialog-buttonset .nc-delete-button {
+	left: 0;
+	position: absolute;
+}
+
+
+/* ------- */
+/* Buttons */
+/* ------- */
+
+/* 3D Delete Button */
+
+.button.nc-super-delete-button {
+	background: #d54e21;
+	border-color: #bb3b10 #982e0b #982e0b;
+	color: #eee;
+	box-shadow: 0 1px 0 #982e0b;
+	text-shadow: 0 -1px 1px #982e0b,1px 0 1px #982e0b,0 1px 1px #982e0b,-1px 0 1px #982e0b;
+}
+
+.button.nc-super-delete-button:active,
+.button.nc-super-delete-button:focus,
+.button.nc-super-delete-button:hover {
+	background: #d54e21;
+	border-color: #982e0b #671c03 #671c03;
+	color: #fff;
+}
+
+.button.nc-super-delete-button:active {
+	box-shadow: inset 0 2px 5px -3px rgba( 0, 0, 0, .5 );
+}
+
+
+/* Regular Delete Button */
+
+.nc-delete-button,
+.wp-core-ui .nc-delete-button {
+	background: transparent;
+	border-color: transparent;
+	box-shadow: none;
+	color: #a00;
+	text-decoration: none;
+}
+
+.nc-delete-button:active,
+.nc-delete-button:focus,
+.nc-delete-button:hover,
+.wp-core-ui .nc-delete-button:active,
+.wp-core-ui .nc-delete-button:focus,
+.wp-core-ui .nc-delete-button:hover {
+	background: #d54e21;
+	border-color: #d54e21;
+	color: #fff;
+}
+
+
+/* Disabled */
+
+.wp-core-ui .nc-delete-button.button-disabled,
+.wp-core-ui .nc-delete-button:disabled,
+.wp-core-ui .nc-delete-button[disabled] {
+	border: none !important;
+	background: none !important;
+}
+
+
+
+.nc-cleaner-dialog table {
+	margin: 1em;
+	margin-right: 0;
+}
+
+.nc-cleaner-dialog tr {
+	vertical-align: top;
+}
+
+.nc-cleaner-dialog p {
+	margin: 0;
+	padding: 0;
+}
+

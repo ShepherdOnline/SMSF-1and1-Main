@@ -1,0 +1,368 @@
+/**
+ * CSS rules for styling activity page.
+ *
+ * @package    Nelio_Content
+ * @subpackage Nelio_Content/admin/css/src
+ * @author     David Aguilera <david.aguilera@neliosoftware.com>
+ * @since      1.0.0
+ */
+
+/* -------------------- */
+/* Load required styles */
+/* -------------------- */
+
+/**
+ * This file defines the layout of the account page.
+ *
+ * @package    Nelio_Content
+ * @subpackage Nelio_Content/admin/css/src/account
+ * @author     David Aguilera <david.aguilera@neliosoftware.com>
+ * @since      1.0.0
+ */
+
+.nelio-content_page_nelio-content-account .wrap > h2:first-child {
+	margin-bottom: 1em;
+}
+
+@media( min-width: 1200px ) {
+
+	.nc-contact-info-and-plan {
+		display: table;
+		width: 100%;
+	}
+
+	.nc-account-plan-container {
+		display: table-cell;
+		margin: auto;
+		padding: 0;
+		padding-right: 0.5em;
+		width: 50%;
+	}
+
+	.nc-contact-info-container {
+		display: table-cell;
+		margin: auto;
+		padding: 0;
+		padding-left: 0.5em;
+		width: 50%;
+	}
+
+}
+
+
+/* If we're on free trial, there's no need to use two columns */
+
+.nc-contact-info-and-plan.nc-free-plan {
+	display: block;
+	width: auto;
+}
+
+.nc-contact-info-and-plan.nc-free-plan .nc-account-plan-container {
+	display: block;
+	width: auto;
+	padding: 0;
+}
+
+/**
+ * This file styles the contact info box in the Account page.
+ *
+ * @package    Nelio_Content
+ * @subpackage Nelio_Content/admin/css/src/account
+ * @author     David Aguilera <david.aguilera@neliosoftware.com>
+ * @since      1.0.0
+ */
+
+
+/* Basic Styles */
+
+.nc-contact-info {
+	height: 11em;
+	margin-bottom: 1em;
+	padding: 1em;
+}
+
+.nc-contact-info h3 {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+.nc-contact-info p {
+	margin: 0;
+	margin-bottom: 0.5em;
+}
+
+
+/* Layout */
+
+.nc-contact-info .nc-picture-and-details {
+	display: table;
+	vertical-align: top;
+}
+
+.nc-contact-info .nc-profile-picture-container {
+	display: table-cell;
+	vertical-align: top;
+	width: 48px;
+}
+
+.nc-contact-info .nc-contact-info-details {
+	display: table-cell;
+	padding-left: 1em;
+	vertical-align: top;
+}
+
+
+/* Picture */
+
+.nc-contact-info .nc-profile-picture {
+	border-radius: 50%;
+	font-size: 48px;
+	height: 1em;
+	margin-top: 4px;
+	overflow: hidden;
+	width: 1em;
+}
+
+.nc-contact-info .nc-actual-profile-picture {
+	height: 1em;
+	width: 1em;
+}
+
+
+/* Name */
+
+.nc-contact-info .nc-name {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.nc-contact-info .nc-license {
+	margin-top: 10px;
+}
+
+/**
+ * This file styles the current plan in the Account page.
+ *
+ * @package    Nelio_Content
+ * @subpackage Nelio_Content/admin/css/src/account
+ * @author     David Aguilera <david.aguilera@neliosoftware.com>
+ * @since      1.0.0
+ */
+
+.nc-account-plan {
+	height: 13em;
+	margin-bottom: 1em;
+	position: relative;
+}
+
+.nc-account-plan .nc-content {
+	padding: 1em 1em 0;
+}
+
+.nc-account-plan .nc-actions {
+	background: white;
+	border-top: 1px solid #eee;
+	bottom: 0;
+	box-sizing: border-box;
+	padding: 1em;
+	position: absolute;
+	text-align: right;
+	width: 100%;
+}
+
+
+/* ---------------- */
+/* Title and period */
+/* ---------------- */
+
+.nc-account-plan h3 {
+	margin: 0;
+	margin-bottom: 0.6em;
+}
+
+.nc-account-plan .nc-period {
+	background: #f7f7f7;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	color: #666;
+	font-size: 10px;
+	font-weight: normal;
+	margin-left: 4px;
+	padding: 3px 5px;
+	position: relative;
+	text-decoration: none;
+	text-shadow: none;
+	top: -2px;
+}
+
+.nc-account-plan.nc-subscription-canceled .nc-period {
+	background: #f7d0d0;
+	border: 1px solid #c99;
+	color: #800;
+}
+
+/* ------- */
+/* Content */
+/* ------- */
+
+.nc-account-plan .nc-renewal {
+	font-size: 1.1em;
+	margin-bottom: 0.6em;
+}
+
+.nc-account-plan .nc-money {
+	font-weight: bold;
+}
+
+.nc-account-plan .nc-date {
+	border-bottom: 1px solid rgba( 0, 0, 0, 0.4 );
+}
+
+
+/* ------- */
+/* Actions */
+/* ------- */
+
+.nc-account-plan .nc-delete-button {
+	float: left;
+}
+
+.nc-account-plan .nc-subscription-canceled {
+	color: #a00;
+	text-align: left;
+}
+
+
+/* --------------- */
+/* License Actions */
+/* --------------- */
+
+.nc-account-plan .nc-actions table,
+.nc-account-plan .nc-actions td.nc-license {
+	width: 100%;
+}
+
+.nc-account-plan .nc-actions input.nc-license-key {
+	margin: 0;
+	max-width: 16em;
+	width: 100%;
+}
+
+/**
+ * This file styles the User Manager block.
+ *
+ * @package    Nelio_Content
+ * @subpackage Nelio_Content/admin/css/src/account
+ * @author     David Aguilera <david.aguilera@neliosoftware.com>
+ * @since      1.0.0
+ */
+
+/* Basic Styles */
+
+.nc-manager {
+	margin-bottom: 1em;
+	padding: 1em;
+}
+
+.nc-manager h3 {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+.nc-manager .ncselect2-container {
+	max-width: 40em;
+}
+
+/**
+ * This file styles the billing table in the Account page.
+ *
+ * @package    Nelio_Content
+ * @subpackage Nelio_Content/admin/css/src/account
+ * @author     David Aguilera <david.aguilera@neliosoftware.com>
+ * @since      1.0.0
+ */
+
+/* Basic Styles */
+
+.nc-billing {
+	margin-bottom: 1em;
+	padding: 1em;
+}
+
+.nc-billing h3 {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+/* Table */
+
+.nc-billing table {
+	border-spacing: 0;
+	width: 100%;
+}
+
+.nc-billing tbody tr:nth-child( odd ) {
+	background: #f9f9f9;
+}
+
+.nc-billing th,
+.nc-billing td {
+	padding: 0.8em 1.2em;
+}
+
+.nc-billing th {
+	text-align: left;
+}
+
+.nc-billing th:last-child,
+.nc-billing td:last-child {
+	text-align: right;
+}
+
+.nc-billing table a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Refunded */
+
+.nc-billing .nc-refunded {
+	color: #aaa;
+}
+
+
+
+/**
+ * This file styles subscribe and upgrade dialogs, which contain a list of
+ * Fastspring produts.
+ *
+ * @package    Nelio_Content
+ * @subpackage Nelio_Content/admin/css/src/account
+ * @author     David Aguilera <david.aguilera@neliosoftware.com>
+ * @since      1.0.0
+ */
+
+/* Fastspring Product */
+
+.nc-fastspring-product {
+	cursor: pointer;
+}
+
+.nc-fastspring-product tr {
+	vertical-align: top;
+}
+
+.nc-fastspring-product .nc-name {
+	font-weight: bold;
+}
+
+.nc-fastspring-product .nc-price {
+	color: #008800;
+}
+
+.nc-fastspring-product .nc-description {
+	color: #aaa;
+}
+
+
+

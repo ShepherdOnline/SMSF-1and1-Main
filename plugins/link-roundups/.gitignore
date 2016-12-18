@@ -1,0 +1,26 @@
+site/
+
+#######################
+#   misc .gitignore   #
+#######################
+
+## OS X
+.DS_Store
+
+## Sublime Text
+*.sublime-*
+
+## Translation files
+lang/*.merged
+
+## Misc
+.idea/
+node_modules
+
+## Temporary test and release directories
+/wptest
+/release
+
+## Vendor libs
+vendor
+js/vendor

@@ -1,0 +1,330 @@
+/**
+ * CSS rules for Nelio's settings page.
+ *
+ * @package    Nelio_Content
+ * @subpackage Nelio_Content/admin/css/src
+ * @author     David Aguilera <david.aguilera@neliosoftware.com>
+ * @since      1.0.0
+ */
+
+/* -------------------- */
+/* Load required styles */
+/* -------------------- */
+
+/**
+ * CSS rules for Nelio's settings page.
+ *
+ * @package    Nelio_Content
+ * @subpackage Nelio_Content/admin/css/src/settings
+ * @author     David Aguilera <david.aguilera@neliosoftware.com>
+ * @since      1.0.0
+ */
+
+th.nc-disabled-setting,
+td.nc-disabled-setting {
+	color: #bcbcbc;
+}
+
+.form-table label {
+	cursor: text;
+}
+
+.nc-disabled-setting input {
+	cursor: default;
+}
+
+/**
+ * CSS rules for Nelio's settings page.
+ *
+ * @package    Nelio_Content
+ * @subpackage Nelio_Content/admin/css/src/settings
+ * @author     David Aguilera <david.aguilera@neliosoftware.com>
+ * @since      1.0.0
+ */
+
+/* -------------------- */
+/* Load required styles */
+/* -------------------- */
+
+/**
+ * CSS rules for Nelio's settings page.
+ *
+ * @package    Nelio_Content
+ * @subpackage Nelio_Content/admin/css/src/settings
+ * @author     David Aguilera <david.aguilera@neliosoftware.com>
+ * @since      1.0.0
+ */
+
+/* ------------------ */
+/* Available Networks */
+/* ------------------ */
+
+.nc-networks .nc-network {
+	background: none;
+	display: inline-block;
+	min-width: 5em;
+	padding: 1em;
+	text-align: center;
+}
+
+.nc-networks .nc-logo {
+	cursor: pointer;
+	background: url( '../images/networks.png' );
+	background-size: 9em 5em;
+	border-radius: 4px;
+	font-size: 50px;
+	height: 50px;
+	margin: 0 auto;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 50px;
+}
+
+.nc-networks .nc-name {
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+.nc-networks .disabled .nc-logo {
+	cursor: default;
+}
+
+.nc-networks .disabled .nc-name {
+	color: #aaa;
+	cursor: default;
+}
+
+
+/* Twitter */
+
+.nc-networks .nc-twitter .nc-logo { background-position: 0 -2em; }
+.nc-networks .nc-twitter .nc-logo:hover { background-position: 0 -3em; }
+.nc-networks .nc-twitter.disabled .nc-logo:hover, .nc-networks .nc-twitter.disabled .nc-logo { background-position: 0 0; }
+
+
+/* Facebook Personal */
+
+.nc-networks .nc-facebook-personal .nc-logo { background-position: -1em -2em; }
+.nc-networks .nc-facebook-personal .nc-logo:hover { background-position: -1em -3em; }
+.nc-networks .nc-facebook-personal.disabled .nc-logo:hover, .nc-networks .nc-facebook-personal.disabled .nc-logo { background-position: -1em 0; }
+
+
+/* Facebook Page */
+
+.nc-networks .nc-facebook-page .nc-logo { background-position: -3em -2em; }
+.nc-networks .nc-facebook-page .nc-logo:hover { background-position: -3em -3em; }
+.nc-networks .nc-facebook-page.disabled .nc-logo:hover, .nc-networks .nc-facebook-page.disabled .nc-logo { background-position: -3em 0; }
+
+
+/* Facebook Group */
+
+.nc-networks .nc-facebook-group .nc-logo { background-position: -2em -2em; }
+.nc-networks .nc-facebook-group .nc-logo:hover { background-position: -2em -3em; }
+.nc-networks .nc-facebook-group.disabled .nc-logo:hover, .nc-networks .nc-facebook-group.disabled .nc-logo { background-position: -2em 0; }
+
+
+/* LinkedIn Personal */
+
+.nc-networks .nc-linkedin-personal .nc-logo { background-position: -4em -2em; }
+.nc-networks .nc-linkedin-personal .nc-logo:hover { background-position: -4em -3em; }
+.nc-networks .nc-linkedin-personal.disabled .nc-logo:hover, .nc-networks .nc-linkedin-personal.disabled .nc-logo { background-position: -4em 0; }
+
+
+/* LinkedIn Company */
+
+.nc-networks .nc-linkedin-company .nc-logo { background-position: -5em -2em; }
+.nc-networks .nc-linkedin-company .nc-logo:hover { background-position: -5em -3em; }
+.nc-networks .nc-linkedin-company.disabled .nc-logo:hover, .nc-networks .nc-linkedin-company.disabled .nc-logo { background-position: -5em 0; }
+
+
+/* GooglePlus */
+
+.nc-networks .nc-googleplus .nc-logo { background-position: -6em -2em; }
+.nc-networks .nc-googleplus .nc-logo:hover { background-position: -6em -3em; }
+.nc-networks .nc-googleplus.disabled .nc-logo:hover, .nc-networks .nc-googleplus.disabled .nc-logo { background-position: -6em 0; }
+
+/* Instagram */
+
+.nc-networks .nc-instagram .nc-logo { background-position: -7em -2em; }
+.nc-networks .nc-instagram .nc-logo:hover { background-position: -7em -3em; }
+.nc-networks .nc-instagram.disabled .nc-logo:hover, .nc-networks .nc-instagram.disabled .nc-logo { background-position: -7em 0; }
+
+/* Pinterest */
+
+.nc-networks .nc-pinterest .nc-logo { background-position: -8em -2em; }
+.nc-networks .nc-pinterest .nc-logo:hover { background-position: -8em -3em; }
+.nc-networks .nc-pinterest.disabled .nc-logo:hover, .nc-networks .nc-pinterest.disabled .nc-logo { background-position: -8em 0; }
+
+
+/**
+ * CSS rules for Nelio's settings page.
+ *
+ * @package    Nelio_Content
+ * @subpackage Nelio_Content/admin/css/src/settings
+ * @author     David Aguilera <david.aguilera@neliosoftware.com>
+ * @since      1.0.0
+ */
+
+/* ------------------ */
+/* Connected Profiles */
+/* ------------------ */
+
+.nc-connected-profile-counter {
+	font-size: 0.8em;
+	color: grey;
+}
+
+.nc-connected-profiles {
+	box-sizing: border-box;
+	background: white;
+	border-radius: 4px;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 0 10px rgba( 0, 0, 0, .1 );
+	max-width: 1024px;
+	padding: 1em;
+	position: relative;
+	width: 100%;
+}
+
+.nc-connected-profile {
+	border-bottom: 1px solid #eee;
+	box-sizing: border-box;
+	display: table;
+	padding: 1em;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.nc-connected-profile:last-child {
+	border-bottom: none;
+	padding-bottom: 0.8em;
+}
+
+
+/* Social Profile Picture */
+/* ---------------------- */
+
+.nc-connected-profile .nc-profile {
+	display: table-cell;
+	vertical-align: top;
+	width: 48px;
+}
+
+.nc-connected-profile .nc-profile {
+	position: relative;
+	font-size: 48px;
+}
+
+.nc-connected-profile .nc-profile-picture {
+	border-radius: 50%;
+}
+
+.nc-connected-profile .nc-network {
+	border: 2px solid white;
+	border-radius: 50%;
+	font-size: 20px;
+	height: 1em;
+	position: absolute;
+	right: -8px;
+	top: 32px;
+	width: 1em;
+}
+
+/* Information */
+/* ----------- */
+
+.nc-connected-profile .nc-information {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 1em 0 2em;
+}
+
+.nc-connected-profile .nc-profile-name {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 0.2em;
+}
+
+.nc-connected-profile .nc-extra {
+	display: table-cell;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.nc-connected-profile .nc-creator-and-date {
+	font-size: 0.8em;
+	margin-top: -0.4em;
+	opacity: 0.8;
+}
+
+/* Actions */
+/* ------- */
+
+.nc-connected-profile .nc-actions {
+	color: #ddd;
+	font-size: 0.95em;
+	visibility: hidden;
+	line-height:2em;
+}
+
+.nc-connected-profile:hover .nc-actions {
+	visibility: visible;
+}
+
+.nc-connected-profile.nc-deleting .nc-actions,
+.nc-connected-profile.nc-deleting:hover .nc-actions {
+	visibility: hidden;
+}
+
+.nc-connected-profile .nc-actions a {
+	text-decoration: none;
+}
+
+.nc-connected-profile .nc-actions .nc-delete {
+	color: #a00;
+}
+
+.nc-connected-profile .nc-actions .nc-delete-confirmation-label {
+	color: #666;
+}
+
+.nc-connected-profile .nc-actions .nc-dashicons {
+	color: #666;
+	cursor: pointer;
+	margin-top: 0.1em;
+}
+
+.nc-connected-profile .nc-actions .nc-dashicons:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+
+/* Profile that requires (Re-)Authentication*/
+/* ----------------------------------------- */
+
+.nc-connected-profile.nc-deleting .nc-profile, .nc-connected-profile.nc-deleting .nc-information, .nc-connected-profile.nc-authentication-required .nc-profile, .nc-connected-profile.nc-authentication-required .nc-information {
+	opacity: 0.5;
+}
+
+
+
+.nc-checking-available-profiles {
+	margin-top: 3em;
+}
+
+.nc-checking-available-profiles .spinner {
+	float: none;
+	margin-top: -4px;
+}
+
+.nc-checking-available-profiles .spinner.is-active {
+	display: inline-block;
+}
+
+
+
